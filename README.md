@@ -1,9 +1,9 @@
 ### Hi Developers 👋 I'm Fumika  
 **Full-Stack Developer | MERN Specialist | UI/UX Focused Builder**  
 
-[![Linkedin Badge](https://img.shields.io/badge/-Fumika_Mikami-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fumika-mikami-b02712166/)](https://www.linkedin.com/in/fumika-mikami-b02712166/)
+[![Linkedin Badge](https://img.shields.io/badge/-Fumika_Mikami-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/fumika-mikami-b02712166/)](https://www.linkedin.com/in/fumika-mikami-b02712166/)
 [![StackOverflow Badge](https://img.shields.io/badge/StackOverflow-Fumika-yellow?style=flat-square&logo=stackoverflow)](https://stackoverflow.com/users/23803164/fumika0523)
-[![Portfolio Badge](https://img.shields.io/badge/Portfolio-WebSite-green?style=flat-square&logo=vercel)](https://portfolio-fumika.netlify.app)
+[![Portfolio Badge](https://img.shields.io/badge/Portfolio-WebSite-green?style=flat-square&logo=react)](https://portfolio-fumika.netlify.app)
 
 ---
 
@@ -52,13 +52,6 @@ I work with:
 <img alt="VSCode" src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 
 </div>
-
----
-
-### 🏆 GitHub Profile Trophy  
-
-![trophy](https://github-profile-trophy.vercel.app/?username=fumika0523)
-
 
 ---
 
