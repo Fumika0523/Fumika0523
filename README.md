@@ -55,10 +55,10 @@ I work with:
 
 ---
 
-### 🏆 Github Profile Trophy
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-<img src="https://github-profile-trophy.vercel.app/?username=fumika0523&theme=onedark&no-frame=true&row=1" />
-</a>
+### 🏆 GitHub Profile Trophy  
+
+![trophy](https://github-profile-trophy.vercel.app/?username=fumika0523)
+
 
 ---
 
