@@ -65,31 +65,153 @@ I work with:
 <img src="https://streak-stats.demolab.com?user=fumika0523&theme=tokyonight" alt="Fumika's Streak" />
 
 ---
-## 🛠️ Phase 1: The AI-Powered Foundation (30 Hours)
-**Goal:** Master Cloud fundamentals & AI integration logic.
-- [ ] **Certification:** AWS Cloud Practitioner (CLF-C02) - Study & Exam Prep
-- [ ] **Skill:** Prompt Engineering for Developers (System prompts, Chain-of-Thought)
-- [ ] **Project 1: AI Expense Tracker Pro (Lesson Style)** - Build a MERN core with JWT + Google OAuth
-    - **AI Feature:** Automatic expense categorization using OpenAI/Gemini API
-    - **New Skill:** Framer Motion for premium UI animations
+# 🚀 100-Hour AI-Integrated MERN & Next.js Roadmap
 
-## 🏗️ Phase 2: Modern Architecture & Real-Time Data (35 Hours)
-**Goal:** Move beyond basic CRUD to professional-grade applications.
-- [ ] **Certification:** MongoDB Associate Developer (Strengthens database credibility)
-- [ ] **Project 2: Smart Freelance Invoice Manager**
-    - Tech: Next.js + Tailwind + PostgreSQL (via Prisma/Supabase)
-    - **AI Feature:** AI-generated professional "Project Descriptions" for invoices.
-    - **Focus:** Server-side rendering (SSR) and SEO best practices.
-
-## 🚢 Phase 3: Deployment, Security & Scaling (35 Hours)
-**Goal:** Show recruiters you can handle production-level concerns.
-- [ ] **Certification:** MS-900 or AI-900 (Optional/Fast-track)
-- [ ] **Project 3: AI-Driven Multi-Tenant Portfolio Builder**
-    - Tech: MERN + Docker + AWS S3
-    - **Focus:** Role-based access control (RBAC) and data isolation (Tenancy)
-    - **New Skill:** CI/CD Pipelines (GitHub Actions) and automated testing (Jest)
+**Author:** Fumika Mikami  
+**Role Target:** AI-Ready Full-Stack Developer (MERN / Next.js)  
+**Duration:** ~100 Hours (2–3 hrs/day · ~7–8 weeks)  
+**Focus:** Real products · AI integration · Cloud deployment · Modern stack
 
 ---
+
+## 🎯 Roadmap Objective
+
+Build **job-ready, production-style applications** that demonstrate:
+
+- MERN full-stack architecture
+- AI integration (Gemini / OpenAI)
+- Authentication (JWT + Google OAuth)
+- Modern frontend (Next.js + TypeScript)
+- Real-time data handling
+- Cloud deployment (AWS + Docker)
+
+This roadmap is designed to **stand out to recruiters in 2025**.
+
+---
+
+## 🧭 Roadmap Overview
+
+| Phase | Hours | Project / Goal | Key Skills |
+|------|------|---------------|-----------|
+| **Phase 1** | 35h | AI Expense Tracker | MERN, AI APIs, Auth, Charts |
+| **Phase 2** | 25h | AI Travel Planner | Next.js, TypeScript, App Router |
+| **Phase 3** | 20h | SaaS Analytics Dashboard | WebSockets, Aggregations |
+| **Phase 4** | 20h | Cloud & Career | AWS, Docker, Portfolio |
+
+---
+
+## 🧠 Phase 1 — AI Expense Tracker (MERN + AI) · 35h
+
+### Project Goal
+Build a **smart expense tracker** where users can enter natural language:
+> “I spent £20 on a burger”
+
+AI returns structured data and stores it securely.
+
+### Skills Learned
+- Prompt engineering (AI → structured JSON)
+- Gemini / OpenAI API integration
+- MERN CRUD architecture
+- JWT + Google OAuth (Passport.js)
+- Charts & dashboard UI
+- Error handling & logging
+
+### Core Features
+- Email + Google authentication
+- AI-powered expense categorization
+- Expense history stored in MongoDB
+- Monthly summaries & charts
+- Animated UI (Framer Motion)
+
+---
+
+## 🌐 Phase 2 — AI Travel Planner (Next.js + TypeScript) · 25h
+
+### Project Goal
+A **modern Next.js app** that generates travel itineraries using AI.
+
+### Skills Learned
+- Next.js App Router (2025 standard)
+- TypeScript for production safety
+- Server & Client Components
+- Tailwind CSS + shadcn/ui
+- API routes & SSR concepts
+
+### Core Features
+- AI-generated travel plans
+- Location search (Google Places API)
+- Responsive, accessible UI
+- Clean project structure
+
+---
+
+## 📊 Phase 3 — Real-Time SaaS Analytics Dashboard · 20h
+
+### Project Goal
+Demonstrate ability to handle **complex data + live updates**.
+
+### Skills Learned
+- WebSockets (Socket.io – practical use)
+- Advanced MongoDB aggregations
+- Chart.js / Recharts
+- State management patterns
+
+### Core Features
+- Live data updates
+- Trend analysis dashboards
+- Aggregated metrics (monthly / yearly)
+
+---
+
+## ☁️ Phase 4 — Cloud, Certification & Career · 20h
+
+### Certifications (Focused)
+- **AWS Certified Cloud Practitioner**
+- **MongoDB Associate Developer**
+
+### Deployment & DevOps
+- Dockerize MERN apps
+- Deploy backend on AWS EC2
+- Host frontend on AWS S3 / CloudFront
+- Environment & secrets management
+
+### Career Polish
+- Update portfolio with case studies
+- GitHub README documentation
+- LinkedIn & CV alignment
+
+---
+
+## 🧪 Completed Projects
+- Recipe Finder (HTML/CSS/JS, AWS S3 deployment)
+- Student Management Portal (MERN – in progress)
+- TextShare App (React, frontend-only)
+
+---
+
+## 🛠️ Tech Stack Summary
+
+**Frontend:** React, Next.js, TypeScript, Tailwind CSS  
+**Backend:** Node.js, Express, MongoDB, Mongoose  
+**Auth:** JWT, Passport.js (Google OAuth)  
+**AI:** Gemini API / OpenAI API  
+**Cloud:** AWS (EC2, S3, CloudFront), Docker  
+**UI:** Chart.js, Framer Motion  
+
+---
+
+## 📌 Guiding Principle
+
+> Skip toy projects.  
+> Build **real systems** with data, auth, AI, and deployment.
+
+---
+
+**Status:** 🚧 In Progress  
+**Next Focus:** Phase 1 — AI Expense Tracker (AI Core)
+
+
+----
 
 ### 🎓 Certifications in Progress
 - ☁️ **AWS Certified Cloud Practitioner** (Expected Week 8)
