@@ -55,18 +55,40 @@ I work with:
 
 ---
 
-### 📊 GitHub Activity  
-![](https://github-readme-stats.vercel.app/api?username=fumika0523&show_icons=true&theme=radical)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=fumika0523&theme=radical)
+### 📊 GitHub Activity 
+![Fumika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=fumika0523&show_icons=true&theme=tokyonight&count_private=true)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fumika0523&layout=compact&theme=tokyonight)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fumika0523&theme=tokyonight)
+---
+## 🛠️ Phase 1: The AI-Powered Foundation (30 Hours)
+**Goal:** Master Cloud fundamentals & AI integration logic.
+- [ ] **Certification:** AWS Cloud Practitioner (CLF-C02) - Study & Exam Prep
+- [ ] **Skill:** Prompt Engineering for Developers (System prompts, Chain-of-Thought)
+- [ ] **Project 1: AI Expense Tracker Pro (Lesson Style)** - Build a MERN core with JWT + Google OAuth
+    - **AI Feature:** Automatic expense categorization using OpenAI/Gemini API
+    - **New Skill:** Framer Motion for premium UI animations
+
+## 🏗️ Phase 2: Modern Architecture & Real-Time Data (35 Hours)
+**Goal:** Move beyond basic CRUD to professional-grade applications.
+- [ ] **Certification:** MongoDB Associate Developer (Strengthens database credibility)
+- [ ] **Project 2: Smart Freelance Invoice Manager**
+    - Tech: Next.js + Tailwind + PostgreSQL (via Prisma/Supabase)
+    - **AI Feature:** AI-generated professional "Project Descriptions" for invoices.
+    - **Focus:** Server-side rendering (SSR) and SEO best practices.
+
+## 🚢 Phase 3: Deployment, Security & Scaling (35 Hours)
+**Goal:** Show recruiters you can handle production-level concerns.
+- [ ] **Certification:** MS-900 or AI-900 (Optional/Fast-track)
+- [ ] **Project 3: AI-Driven Multi-Tenant Portfolio Builder**
+    - Tech: MERN + Docker + AWS S3
+    - **Focus:** Role-based access control (RBAC) and data isolation (Tenancy)
+    - **New Skill:** CI/CD Pipelines (GitHub Actions) and automated testing (Jest)
 
 ---
 
-### 🚀 Current Projects  
-- **Student Management Portal** (MERN full-stack, admin + staff roles)  
-- **MovieStation MERN Marketplace**  
-- **Weather App (Microsoft-style UI)**  
-- **TextShare (Front-end only link encoder)**  
-
+### 🎓 Certifications in Progress
+- ☁️ **AWS Certified Cloud Practitioner** (Expected Week 8)
+- 🤖 **Microsoft AI Fundamentals (AI-900)** (Expected Week 6)
 ---
 
 ### 💬 Connect With Me  
