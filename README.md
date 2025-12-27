@@ -55,10 +55,15 @@ I work with:
 
 ---
 
-### 📊 GitHub Activity 
-![Fumika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=fumika0523&show_icons=true&theme=tokyonight&count_private=true)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fumika0523&layout=compact&theme=tokyonight)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fumika0523&theme=tokyonight)
+
+### 📊 GitHub Activity
+
+<img src="https://github-readme-stats.vercel.app/api?username=fumika0523&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" alt="Fumika's Stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fumika0523&layout=compact&theme=tokyonight&cache_seconds=1800" alt="Fumika's Top Languages" />
+
+<img src="https://streak-stats.demolab.com?user=fumika0523&theme=tokyonight" alt="Fumika's Streak" />
+
 ---
 ## 🛠️ Phase 1: The AI-Powered Foundation (30 Hours)
 **Goal:** Master Cloud fundamentals & AI integration logic.
