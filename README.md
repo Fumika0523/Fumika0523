@@ -65,120 +65,282 @@ I work with:
 <img src="https://streak-stats.demolab.com?user=fumika0523&theme=tokyonight" alt="Fumika's Streak" />
 
 ---
-# 🚀 100-Hour AI-Integrated MERN & Next.js Roadmap
+# 🚀 8-Week AI-Integrated Next.js Roadmap (Job-Ready Portfolio)
 
 **Author:** Fumika Mikami  
-**Role Target:** AI-Ready Full-Stack Developer (MERN / Next.js)  
-**Duration:** ~100 Hours (2–3 hrs/day · ~7–8 weeks)  
-**Focus:** Real products · AI integration · Cloud deployment · Modern stack
+**Role Target:** AI-Ready Full-Stack Developer (Next.js / MERN-style backend)  
+**Duration:** 8 Weeks · **~280 Hours** (5 hrs/day)  
+**Cert Focus:** **Microsoft AI-900**  
+**Deployment:** **Vercel (Next.js)** + **Render (API/Worker)** + **MongoDB Atlas (DB)**  
+**Core Rule:** Touch **AI Travel Planner OR AI Expense Tracker at least 1 hour/day**
 
 ---
 
-## 🎯 Roadmap Objective
+## 🎯 Objective
 
-Build **job-ready, production-style applications** that demonstrate:
+Build **job-ready, production-style applications** that prove you can:
+- Ship real products end-to-end (UI → API → DB → deploy)
+- Integrate LLMs safely (structured outputs, guardrails, eval mindset)
+- Build reliable systems (auth, RBAC, logs, background jobs, integrations)
+- Present your work like a professional (READMEs, demos, architecture notes)
+- Pass **AI-900** for an official “AI fundamentals” signal
 
-- MERN full-stack architecture
-- AI integration (Gemini / OpenAI)
-- Authentication (JWT + Google OAuth)
-- Modern frontend (Next.js + TypeScript)
-- Real-time data handling
-- Cloud deployment (AWS + Docker)
-
-This roadmap is designed to **stand out to recruiters in 2025**.
+> Goal outcome: If you complete this roadmap, applying for **MERN/Full-Stack roles** becomes much easier because your portfolio looks like real work, not tutorials.
 
 ---
 
 ## 🧭 Roadmap Overview
 
-| Phase | Hours | Project / Goal | Key Skills |
-|------|------|---------------|-----------|
-| **Phase 1** | 35h | AI Expense Tracker | MERN, AI APIs, Auth, Charts |
-| **Phase 2** | 25h | AI Travel Planner | Next.js, TypeScript, App Router |
-| **Phase 3** | 20h | SaaS Analytics Dashboard | WebSockets, Aggregations |
-| **Phase 4** | 20h | Cloud & Career | AWS, Docker, Portfolio |
+| Phase | Weeks | Hours | Outcome |
+|------|------:|------:|--------|
+| **Phase 0** | 1 | 35h | Environment + Repo setup + Deploy skeleton + AI-900 start |
+| **Phase 1** | 2 | 70h | **AI Expense Tracker MVP** deployed + demo-ready |
+| **Phase 2** | 3 | 70h | **AI Travel Planner MVP (Next.js)** deployed + saved itineraries |
+| **Phase 3** | 4–6 | 105h | Integration + Reliability: RAG/citations, jobs/queues, audit logs, export, polish |
+| **Phase 4** | 7–8 | 70h | (Optional 3rd mini-project) + Job-ready packaging + Interview prep |
+
+> Total: ~280 hours (8 weeks × 7 days × 5 hours/day)
 
 ---
 
-## 🧠 Phase 1 — AI Expense Tracker (MERN + AI) · 35h
+## 🗓️ Daily Routine (5 hours/day)
 
-### Project Goal
-Build a **smart expense tracker** where users can enter natural language:
-> “I spent £20 on a burger”
-
-AI returns structured data and stores it securely.
-
-### Skills Learned
-- Prompt engineering (AI → structured JSON)
-- Gemini / OpenAI API integration
-- MERN CRUD architecture
-- JWT + Google OAuth (Passport.js)
-- Charts & dashboard UI
-- Error handling & logging
-
-### Core Features
-- Email + Google authentication
-- AI-powered expense categorization
-- Expense history stored in MongoDB
-- Monthly summaries & charts
-- Animated UI (Framer Motion)
+**Every day (non-negotiable):**
+1) **1h** → Work on **either** Travel Planner **or** Expense Tracker  
+2) **1.5h** → Main weekly build goal (the roadmap milestone)  
+3) **1h** → **AI-900 study** (Weeks 1–4 heavy; Weeks 5–8 light review)  
+4) **1h** → Engineering skills (auth/security/testing/deployment/system design)  
+5) **0.5h** → Portfolio output (README updates, screenshots, demo notes)
 
 ---
 
-## 🌐 Phase 2 — AI Travel Planner (Next.js + TypeScript) · 25h
+# ✅ Phase 0 — Setup + Skeleton Deploy (Week 1)
 
-### Project Goal
-A **modern Next.js app** that generates travel itineraries using AI.
+## Goals
+- Create strong foundations to avoid deployment pain later
+- Deploy *early* (even if features are not ready)
 
-### Skills Learned
-- Next.js App Router (2025 standard)
-- TypeScript for production safety
-- Server & Client Components
-- Tailwind CSS + shadcn/ui
-- API routes & SSR concepts
+## Tasks
+### Project Setup
+- Create 2 repos:
+  - `globeguide-ai` (AI Travel Planner)
+  - `ai-expense-tracker`
+- Initialize **Next.js + TypeScript** in both
+- Add ESLint + Prettier + absolute imports
+- Add `.env.example` + config conventions
 
-### Core Features
-- AI-generated travel plans
-- Location search (Google Places API)
-- Responsive, accessible UI
-- Clean project structure
+### Deploy Setup
+- Deploy both to **Vercel** (blank is fine)
+- Create MongoDB Atlas cluster + separate DBs/collections per project
+- Decide auth approach (recommended: email/password first; add Google OAuth later)
 
----
+### Backend Structure (recommended)
+- Next.js app for UI + lightweight API routes
+- Use **Render** for heavier API + background worker (jobs/queues)
+- Store secrets in Vercel/Render env settings (never in code)
 
-## 📊 Phase 3 — Real-Time SaaS Analytics Dashboard · 20h
+### AI-900 Start
+- Begin AI-900 learning path (1 hour/day)
 
-### Project Goal
-Demonstrate ability to handle **complex data + live updates**.
-
-### Skills Learned
-- WebSockets (Socket.io – practical use)
-- Advanced MongoDB aggregations
-- Chart.js / Recharts
-- State management patterns
-
-### Core Features
-- Live data updates
-- Trend analysis dashboards
-- Aggregated metrics (monthly / yearly)
+**Week 1 Definition of Done**
+- Both apps deployed on Vercel with working home pages
+- DB connected with a health-check endpoint/page
+- Repos have clean READMEs + environment templates
+- AI-900 study started
 
 ---
 
-## ☁️ Phase 4 — Cloud, Certification & Career · 20h
+# ✅ Phase 1 — AI Expense Tracker (Week 2)
 
-### Certifications (Focused)
-- **AWS Certified Cloud Practitioner**
-- **MongoDB Associate Developer**
+## Project Goal
+A production-style expense tracker with AI-assisted extraction:
+> “I spent £20 on a burger” → structured JSON → stored in DB
 
-### Deployment & DevOps
-- Dockerize MERN apps
-- Deploy backend on AWS EC2
-- Host frontend on AWS S3 / CloudFront
-- Environment & secrets management
+## Core Features (MVP)
+- Auth + protected dashboard
+- Transactions CRUD (add/edit/delete)
+- Categories + monthly summary
+- Chart dashboard (Chart.js/Recharts)
+- AI feature:
+  - NLP → structured extraction (amount, category, date, notes)
+  - or auto-categorization + brief “monthly insight”
 
-### Career Polish
-- Update portfolio with case studies
-- GitHub README documentation
-- LinkedIn & CV alignment
+## Engineering Must-Haves
+- Validation + error handling
+- Loading states + empty states
+- Basic logging
+
+**Week 2 Definition of Done**
+- Expense Tracker deployed, stable, demoable
+- 60–90s demo video recorded
+- README includes screenshots + features + setup steps
+
+---
+
+# ✅ Phase 2 — AI Travel Planner (Week 3)
+
+## Project Goal
+A modern **Next.js** travel planner that generates itineraries and stores them.
+
+## Core Features (MVP)
+- Auth + saved itineraries per user
+- Itinerary generation endpoint (LLM)
+- UI: day-by-day itinerary layout (timeline or cards)
+- Save + view past itineraries
+- Nice-to-have: streaming generation for better UX
+
+## Engineering Must-Haves
+- Strong prompt structure + JSON output schema
+- Retry/fallback behavior on malformed output
+- Basic rate limiting strategy (at least per-user throttling)
+
+**Week 3 Definition of Done**
+- Travel Planner deployed, stable, demoable
+- Saved itineraries working
+- README includes architecture summary + screenshots
+
+---
+
+# ✅ Phase 3 — Integration + Reliability + “Real Work” Signals (Weeks 4–6)
+
+## Week 4 — AI-900 Exam + Hardening Week
+### AI-900
+- Practice tests + revise weak areas
+- **Take AI-900 this week**
+
+### Hardening Tasks (both apps)
+- Improve error boundaries, UX loading states
+- Add request validation (Zod recommended)
+- Add structured logging (request ID, user ID, error trace)
+- Security basics:
+  - protect routes
+  - safe env handling
+  - sanitize inputs
+
+**Week 4 Definition of Done**
+- AI-900 passed ✅
+- Both apps feel stable and professional
+
+---
+
+## Week 5 — RAG + Citations + Integrations (Travel Planner Focus)
+### Travel Planner Upgrades
+- “Bring your own notes” feature:
+  - upload text/PDF notes (or paste notes)
+  - chunk + embed + retrieve relevant context
+  - itinerary includes **citations**
+- Add 1 integration:
+  - Places search, maps, weather, events, etc.
+
+**Week 5 Definition of Done**
+- Travel Planner has RAG + citations + one real external API integration
+
+---
+
+## Week 6 — Background Jobs + Audit Logs + Export (Expense Tracker Focus)
+### Expense Tracker Upgrades
+- Add export (CSV/PDF)
+- Add audit logs (who created/edited/deleted transactions)
+- Add a background job:
+  - monthly report generation
+  - or re-categorization batch job
+  - or scheduled insights email (mock)
+
+### Reliability Upgrades
+- retries/failures handled cleanly
+- queue or scheduled worker runs on Render
+
+**Week 6 Definition of Done**
+- Expense Tracker has “enterprise signals”: export + audit logs + jobs
+
+---
+
+# ✅ Phase 4 — Optional 3rd Project + Job-Ready Packaging (Weeks 7–8)
+
+## Option A (Recommended): Mini Project 3 — AI Knowledge Base (RAG SaaS)
+A small but powerful demo for “AI Integration Engineer” roles:
+- Upload docs → chat with citations
+- RBAC (admin/user)
+- Logs + feedback button
+- Deploy + demo
+
+## Option B: Polish the 2 Flagship Apps Deeply
+- Performance + caching
+- Better design system
+- More integrations
+- Add Google OAuth (if not already)
+
+---
+
+## Week 8 — Portfolio + Interview Prep + “Hire Me” Assets
+
+### Portfolio Deliverables
+- Clean READMEs (setup, env vars, features, screenshots)
+- Architecture diagram (simple)
+- 2 demo videos (Travel + Expense)
+- GitHub pinned repos + short project descriptions
+- CV bullets written from your shipped features
+
+### Interview Prep (daily)
+- Explain architecture decisions:
+  - auth, DB schema, API design
+  - LLM structured output, RAG, prompt injection awareness
+  - rate limiting, logging, background jobs
+- Prepare “project walkthrough” answers (STAR format)
+
+**Week 8 Definition of Done**
+- 2 (or 3) deployed apps
+- demos + READMEs complete
+- CV + LinkedIn updated
+- ready to apply confidently
+
+---
+
+# ✅ “Job-Ready” Checklist (Non-negotiable)
+
+## For each flagship app
+- [ ] Deployed (Vercel + Render if needed)
+- [ ] Auth + protected routes
+- [ ] Real DB persistence (Mongo Atlas)
+- [ ] One meaningful AI feature
+- [ ] Validation + error handling
+- [ ] Logging + basic monitoring mindset
+- [ ] README + screenshots + setup
+- [ ] Demo video (60–90 seconds)
+
+## Engineering Signals
+- [ ] RBAC or permissions in at least one app
+- [ ] Audit logs in at least one app
+- [ ] Background job / worker / scheduled task in at least one app
+- [ ] External API integration in at least one app
+
+## Certification
+- [ ] AI-900 passed
+
+---
+
+# Notes / Tooling
+
+## Recommended stack
+- Next.js (TypeScript)
+- MongoDB Atlas
+- Vercel (frontend + lightweight API routes)
+- Render (API + worker for longer tasks)
+- Redis/Queue (optional but recommended for jobs)
+
+## AI Providers
+- OpenAI or Gemini (choose one first; add the other later)
+
+---
+
+# Progress Tracking
+
+Create a `/docs/progress.md` file in each repo and update daily:
+- Date
+- What you built
+- What broke
+- Next tasks
+- Links (Vercel/Render)
 
 ---
 
