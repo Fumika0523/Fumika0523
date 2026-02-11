@@ -361,6 +361,61 @@ Create a `/docs/progress.md` file in each repo and update daily:
 **UI:** Chart.js, Framer Motion  
 
 ---
+---
+
+# 🎯 Career Target & Positioning
+
+This roadmap is designed to prepare me for the following 2025 job roles:
+
+## 🥇 Primary Target Roles
+
+- **AI-Integrated Full Stack Developer**
+- **Full Stack Developer (MERN Stack)**
+- **Next.js Developer (TypeScript)**
+
+These roles align with my focus on:
+- MERN architecture (MongoDB, Express, React, Node)
+- AI API integration (Gemini / OpenAI)
+- Authentication systems (JWT + Google OAuth)
+- Real-time dashboards & data handling
+- Cloud deployment (AWS, Docker)
+
+---
+
+## 🥈 Secondary Target Roles
+
+- Frontend Developer (React / Next.js)
+- Backend Developer (Node.js / MongoDB)
+- Cloud-Ready JavaScript Developer
+
+---
+
+## 🥉 Niche / Stand-Out Roles
+
+- AI Application Developer
+- SaaS Product Developer
+- AI Workflow Engineer
+- Automation Developer (Node + AI)
+
+---
+
+## 🧠 Professional Positioning Statement
+
+I am developing into an:
+
+> **AI-Augmented Full Stack Developer (Cloud-Ready, Data-Driven, Production-Focused)**
+
+My projects emphasize:
+- Real data handling
+- Secure authentication
+- AI integration
+- Cloud deployment
+- Modern frontend standards (Next.js + TypeScript)
+
+This roadmap avoids static/demo projects and focuses on building real, deployable systems.
+
+---
+
 
 ## 📌 Guiding Principle
 
