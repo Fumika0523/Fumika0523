@@ -1,4 +1,3 @@
-```
 # Hi Developers 👋 I'm Fumika
 
 **AI-Integrated Full-Stack Developer | MERN Specialist | UI/UX Focused Builder**
@@ -480,4 +479,3 @@ I can position myself as a:
 
 📩 Email: **fumika.m0523@gmail.com**  
 🌐 Portfolio: https://portfolio-fumika.netlify.app
-```
