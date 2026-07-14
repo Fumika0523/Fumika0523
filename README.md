@@ -1,4 +1,4 @@
-```md
+```
 # Hi Developers 👋 I'm Fumika
 
 **AI-Integrated Full-Stack Developer | MERN Specialist | UI/UX Focused Builder**
